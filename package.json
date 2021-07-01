@@ -1,0 +1,23 @@
+{
+  "name": "plataforma_de_perguntas",
+  "version": "1.0.0",
+  "description": "Uma plataforma de perguntas e respostas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiovanaT/Plataforma_de_perguntas.git"
+  },
+  "author": "Diovana Tavares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiovanaT/Plataforma_de_perguntas/issues"
+  },
+  "homepage": "https://github.com/DiovanaT/Plataforma_de_perguntas#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
