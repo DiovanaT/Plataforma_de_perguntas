@@ -1,4 +1,4 @@
-# Plataforma_perguntas
+# Plataforma de perguntas
 
 ## Descrição do Projeto
 Uma plataforma de perguntas e respostas.
@@ -26,7 +26,6 @@ Uma plataforma de perguntas e respostas.
 ### Dia 1
 - [X] Configurações das dependências.
 - [X] Cofiguração do Bootstrap.
-- [X] Mudança de nome.
 
 ### Dia 2
 - [ ] Forumulário das perguntas.
