@@ -55,5 +55,5 @@ Feito com :heart: por Diovana Tavares :wave_tone3: Entre em contato! <br><br>
 </a>&nbsp;&nbsp; <br>
                                                                                                        
 <a href="https://www.instagram.com/diovana_tavares/%22%3E">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=whitee" />
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
 </a>&nbsp;&nbsp; <br>
