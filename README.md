@@ -54,6 +54,6 @@ Feito com :heart: por Diovana Tavares :hand: Entre em contato! <br><br>
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>&nbsp;&nbsp; <br>
                                                                                                        
-<a href="https://www.instagram.com/diovana_tavares/%22%3E">
+<a href="https://www.instagram.com/diovana_tavares/">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
 </a>&nbsp;&nbsp; <br>
