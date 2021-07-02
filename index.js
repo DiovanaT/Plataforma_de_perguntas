@@ -14,6 +14,11 @@ app.get("/", (req,res) => {
     res.render("index");
 });
 
+//rota para o formulário de perguntas 
+app.get("/perguntar", (req,res) => {
+    res.render("perguntar");
+});
+
 //porta para rodar a aplicação 
 app.listen(8000, () => {
     console.log("Aplicação rodando.");
