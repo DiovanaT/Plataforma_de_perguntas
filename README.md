@@ -34,6 +34,10 @@ Uma plataforma de perguntas e respostas.
 - [X] Configuração do footer.
 
 ### Dia 3
+- [X] Formulario enviando os dados para o back end.
+- [X] Configuração do banco de dados.
+- [X] Conexão no banco de dados.
+- [X] Criação de uma table para o banco de dados.
 
 
 ## Status
