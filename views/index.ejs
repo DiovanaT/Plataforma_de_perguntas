@@ -1,35 +1,26 @@
 <%- include ('partials/header.ejs'); %>
 <body>
     <%- include ('partials/navbar.ejs'); %>
-    <p>aaaaaaaaaaaaaaaa</p>
-    <p>aaaaaaaaaaaaaaaa</p>
-    <p>aaaaaaaaaaaaaaaa</p>
-    <p>aaaaaaaaaaaaaaaa</p>
-    <p>aaaaaaaaaaaaaaaa</p>
-    <p>aaaaaaaaaaaaaaaa</p>
-    <p>aaaaaaaaaaaaaaaa</p>
-    <p>aaaaaaaaaaaaaaaa</p>
-    <p>aaaaaaaaaaaaaaaa</p>
-    <p>aaaaaaaaaaaaaaaa</p>
-    <p>aaaaaaaaaaaaaaaa</p>
-    <p>aaaaaaaaaaaaaaaa</p>
-    <p>aaaaaaaaaaaaaaaa</p>
-    <p>aaaaaaaaaaaaaaaa</p>
-    <p>aaaaaaaaaaaaaaaa</p>
-    <p>aaaaaaaaaaaaaaaa</p>
-    <p>aaaaaaaaaaaaaaaa</p>
-    <p>aaaaaaaaaaaaaaaa</p>
-    <p>aaaaaaaaaaaaaaaa</p>
-    <p>aaaaaaaaaaaaaaaa</p>
-    <p>aaaaaaaaaaaaaaaa</p>
-    <p>aaaaaaaaaaaaaaaa</p>
-    <p>aaaaaaaaaaaaaaaa</p>
-    <p>aaaaaaaaaaaaaaaa</p>
-    <p>aaaaaaaaaaaaaaaa</p>
-    <p>aaaaaaaaaaaaaaaa</p>
-    <p>aaaaaaaaaaaaaaaa</p>
-    <p>aaaaaaaaaaaaaaaa</p>
 
+    <div class="container" id="color-text">
+        <div id="space">
+            <h1>Perguntas</h1>
+            <a href="/question" class="btn" id="btn-color">Fazer uma Pergunta</a>
+            <br>
+
+            <% asks.forEach(asks => { %>
+                <br>
+                <div class="card">
+                    <div class="card-body" id="color-text">
+                        <h3><%= asks.title %></h3>
+                    </div>
+                    <div class="card-footer">
+                        <a href="/question/<%= asks.id %>"><button class="btn"id="btn-color">Responder</button></a>  
+                    </div>
+                </div>
+            <% }) %>
+        </div>
+    </div>
 </body>
 
 <%- include ('partials/copyright.ejs'); %>

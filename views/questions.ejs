@@ -1,0 +1,18 @@
+<%- include ('partials/header.ejs'); %>
+<body>
+    <%- include ('partials/navbar.ejs'); %>
+    
+    <div class="container" id="space">
+        <div class="card" id="questions">
+            <div class="card-header" id="color-text">
+                <h1><%= asks.title %></h1>
+            </div>
+            <div class="card-body">
+                <p><%= asks.description %></p>
+            </div>
+        </div>        
+    </div>
+
+</body>
+
+<%- include ('partials/footer.ejs'); %>

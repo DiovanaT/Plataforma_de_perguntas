@@ -39,6 +39,11 @@ Uma plataforma de perguntas e respostas.
 - [X] Conexão no banco de dados.
 - [X] Criação de uma table para o banco de dados.
 
+### Dia 4 
+- [X] Salvando informações no banco de dados.
+- [X] Listando as informações na rota.
+- [X] Front end da rota de perguntas.
+
 
 ## Status
 - Em construção...

@@ -19,6 +19,9 @@ nav {
     color: #263238;
 }
 
+#space {
+    margin-top: 6rem;
+}
 .navtop a:hover {
     transition: 400ms;
     margin-top: 5px;

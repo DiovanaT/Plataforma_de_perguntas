@@ -15,3 +15,6 @@ const Asks = connection.define('asks', {
 });
 
 Asks.sync({force: false}).then(() => {});
+
+//exportando o modulo Ask, exportando a variavel pergunta e importamos no index.js
+module.exports = Asks;

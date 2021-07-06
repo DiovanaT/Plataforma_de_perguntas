@@ -6,8 +6,9 @@ const app = express();
 const bodyParser = require("body-parser")
 //carregando a conexão com o banco de dados
 const connection = require("./database/database");
-//importando o model
-const askModel = require("./database/Ask");
+//importando o model sequelize
+//model que representa a tabela de perguntas
+const asksModel = require("./database/Asks");
 
 
 //database
@@ -29,7 +30,16 @@ app.use(express.json());
 //Rotas
 //rota teste, principal da aplicação 
 app.get("/", (req,res) => {
-    res.render("index");
+    asksModel.findAll({raw: true, order: [
+        ['id','DESC']
+    ]}).then(asks => {
+        //console.log(asks);
+        res.render("index", {
+            asks: asks,
+        });
+        //console.log(asks)
+    });
+    
 });
 
 //rota para o formulário de perguntas 
@@ -41,8 +51,32 @@ app.get("/question", (req,res) => {
 app.post("/savequestion", (req,res) => {
     var title = req.body.title;
     var description = req.body.description;
-    res.send("Formulário recebido. Título: " + title + " " + "Description: " + description);
+    //para salvar o dado na tabela, pegamos o model da tabela
+    //e chamamos o create, que ele irá salvar
+    asksModel.create({
+        title: title,
+        description: description
+    }).then(() => {
+        res.redirect("/");
+    });
 });
+
+//rota para entrar na pergunta
+app.get("/question/:id", (req,res) => {
+    var id = req.params.id;
+    asksModel.findOne({
+        where: {id: id}
+    }).then(asks => {
+        if(asks != undefined){ //achou a pergunta
+            res.render("questions", {
+                asks: asks
+            });
+        }else{//não achou a pergunta
+            res.redirect("/");
+        }
+    });
+});
+
 
 //porta para rodar a aplicação 
 app.listen(8000, () => {
