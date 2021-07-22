@@ -10,6 +10,30 @@
             <div class="card-body">
                 <p><%= asks.description %></p>
             </div>
+            <br>
+            <div class="card-header" id="color-text">
+                <form method="POST" action="/answer">
+                    <h3>Responda</h3>
+                    <textarea placeholder="Digite sua resposta" class="form-control" name="content"></textarea>
+                    <input type="hidden" name="questionId" value="<%= asks.id %>">
+                    <br>
+                    <button type="submit"class="btn" id="btn-color">Responder</button>
+                </form>
+                <br>
+            </div>
+            <div class="card-header" id="color-text">
+                <h3>Respostas</h3>
+                <% answer.forEach(answer => { %>
+                <br>
+                <div class="card">
+                    <div class="card-body">
+                        <p>
+                            <%= answer.content %>
+                        </p>
+                    </div>
+                </div>
+                <%})%>
+            </div>
         </div>        
     </div>
 

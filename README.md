@@ -8,7 +8,7 @@ Uma plataforma de perguntas e respostas.
 * [Tecnologias](#Tecnologias)
 * [RoadMap](#RoadMap)
 * [Status](#Status)
-* [Como Rodar](#Rodando)
+* [Rodando](#Rodando)
 * [Futuro](#Futuro)
 * [Autor](#Autor)
 
@@ -44,9 +44,15 @@ Uma plataforma de perguntas e respostas.
 - [X] Listando as informações na rota.
 - [X] Front end da rota de perguntas.
 
+### Dia 4 
+- [X] Configurando o model de respostas no banco de dados.
+- [X] Formulário de respostas feito.
+- [X] Listando as respostas na rota.
+- [X] Finalizando o Front-end.
+
 
 ## Status
-- Em construção...
+- Finalizado.
 
 
 ## Rodando
