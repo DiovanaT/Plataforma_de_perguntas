@@ -44,7 +44,7 @@ Uma plataforma de perguntas e respostas.
 - [X] Listando as informações na rota.
 - [X] Front end da rota de perguntas.
 
-### Dia 4 
+### Dia 5 
 - [X] Configurando o model de respostas no banco de dados.
 - [X] Formulário de respostas feito.
 - [X] Listando as respostas na rota.
